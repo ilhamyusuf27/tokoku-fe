@@ -1,0 +1,9 @@
+
+.main-product{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0px -8px;
+  padding-bottom: 3rem;
+  justify-content: space-around;
+}

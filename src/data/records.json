@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "product": "Kemeja Putih Pns Kemeja Pdh Lengan Panjang Seragam Pns Putih Kerja",
+    "slugs": "kemeja-putih-pns-kemeja-pdh-lengan-panjang-seragam-pns-putih-kerja",
+    "price": 79650,
+    "store": "BinekaKonveksi",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/15/f0b4d998-d287-4ac9-b419-e1f66201475b.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/15/4cb070fb-647f-48d1-959f-d2c2833b9d4e.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/15/fe8fb674-2326-497c-8853-7cb0376675a7.jpg"
+    ],
+    "category": [
+      {
+        "title": "Basic",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/15/f0b4d998-d287-4ac9-b419-e1f66201475b.jpg"
+
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 2,
+    "product": "Kaos Polos Bambuin / Kaos Polos Katun Bambu / Kaos Cotton Bamboo",
+    "slugs": "kaos-polos-bambuin-kaos-polos-katun-bambu-kaos-cotton-bamboo",
+    "price": 79000,
+    "store": "Kios Ide Bandung",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/8/27/33a65e70-7283-4adb-9d60-bb8252236888.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/30/90e5ac7c-499e-424d-a7a4-be8d27703fc9.jpg"
+    ],
+    "category": [
+      {
+        "title": "Black",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/5/11/866ae0af-f7f0-4137-8a6b-094472ac26d5.jpg"
+      },
+      {
+        "title": "Pink",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/5/11/ef9297d0-332c-49b9-a589-3ac47924bbb6.jpg"
+      },
+      {
+        "title": "Navy",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/5/11/38799985-7bef-4a3b-8240-b5b393d49aac.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 3,
+    "product": "JB PSY LS",
+    "slugs": "jb-psy-ls",
+    "price": 189000,
+    "store": "Official JB Store",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/26/781be439-91c5-4ef5-918a-3ba0beacd7a4.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/26/d46d09e1-08c8-42ba-85b4-91895e41cd5a.jpg"
+    ],
+    "category": [
+      {
+        "title": "Olive",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/26/444cfc96-a03f-4546-ba2b-92c750eb0bc3.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 4,
+    "product": "Vneck shirt / kemeja pria tenun",
+    "slugs": "vneck-shirt-kemeja-pria-tenun",
+    "price": 180000,
+    "store": "Affojar Fashion",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/5/31/becdc3d0-ab02-4964-90e4-93607e93aad5.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/2/26/a84a66f0-575a-43e5-bc6f-260fd9a4b052.jpg"
+    ],
+    "category": [
+      {
+        "title": "Hitam",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/9/c7d6452e-2bb8-4c92-b3e7-082fea28ec8e.jpg"
+      },
+      {
+        "title": "Broken white",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/9/7f2d28a9-0c2b-4982-9daf-73ecabfc4102.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 5,
+    "product": "Kaos pria O-neck polos M L XL XXL bahan katun kombet menyerap keri",
+    "slugs": "kaos-pria-o-neck-polos-M-L-XL-XXL-bahan-katun-kombet-menyerap-keri",
+    "price": 20000,
+    "store": "Cheapshop-",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/27/bfd5dc5a-1937-4e26-952e-cbb4c95add89.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/27/d8aecba9-8df0-47b6-957b-2070fbff1c2e.jpg"
+    ],
+    "category": [
+      {
+        "title": "Hitam",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/7/27/6ef59467-34b8-4e2f-834e-c6564142c1af.jpg"
+      },
+      {
+        "title": "Gray",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/6/2/fd4d0a09-540e-4f39-8640-1b7e99c37845.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  }
+
+]

@@ -1,0 +1,168 @@
+.checkout{
+  display: flex;
+  justify-content: space-between;
+}
+.item-container{
+  width: 100%;
+  max-width: 65%;
+}
+
+.item-control, .item-list{
+  border-bottom: 6px solid var(--color-6);
+  padding-bottom: 1rem;
+}
+
+.item-control{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.checks{
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.item-check-group label{
+  margin-left: 1rem;
+  color: var(--color-4);
+}
+
+.item-delete{
+  color: var(--primary-color);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.item-delete:hover{
+  color: rgb(194, 31, 31);
+}
+
+.item-list{
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.item-store{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.store-id{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.store-name{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 4px;
+  gap: .5rem;
+}
+
+
+.store-loc{
+  font-size: 13px;
+  color: var(--color-5);
+  font-weight: 500;
+}
+
+.item-desc{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-desc-group{
+  display: flex;
+  gap: 1rem;
+}
+
+.item-images{
+  width: 100%;
+  max-width: 80px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.item-desc-title{
+  font-weight: 700;
+  margin-bottom: .25rem;
+}
+
+.item-price{
+  color: var(--price-color);
+  font-weight: 700;
+}
+
+.item-action{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.add-memo{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--price-color);
+  cursor: pointer;
+  padding-left: 2.3rem;
+}
+
+.checkout-sum{
+  width: 100%;
+  max-width: 30%;
+  height: 150px;
+  box-shadow: 0px -7px 14px 3px rgba(206,206,206,0.25);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sum-title{
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  border-bottom: 1px solid var(--color-6);
+}
+
+.sum-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum-price-title{
+  color: var(--color-4);
+}
+
+.price-sum{
+  font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+  .checkout{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .item-container{
+    max-width: 100%;
+  }
+
+  .checkout-sum{
+    max-width: 80%;
+  }
+}
+
+
+
