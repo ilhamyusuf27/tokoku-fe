@@ -79,8 +79,8 @@ function Detail() {
 							<img src={display ?? `/images/product-default.jpg`} alt="product-default" width="100%" height="100%" />
 						</div>
 						<div className="product-image-display">
-							{imageDisplay.map((item) => (
-								<img src={item ?? "/images/product-default.jpg"} alt="product-default" width="100%" height="100%" onClick={() => setDisplay(item)} />
+							{imageDisplay.map((item, index) => (
+								<img src={item ?? "/images/product-default.jpg"} key={"ID" + index} alt="product-default" width="100%" height="100%" onClick={() => setDisplay(item)} />
 							))}
 						</div>
 					</div>
@@ -99,9 +99,9 @@ function Detail() {
 								<div className="product-item-title">Pilih variant</div>
 								<div className="product-item-list">
 									{category?.map((item, index) => (
-										<div className="product-item-group">
+										<div className="product-item-group" key={"PG" + index}>
 											<input type="radio" id={item?.title + index} name="color" value={item.title} onChange={(e) => setCart({ ...cart, color: e.target.value })} required />
-											<label for={item?.title + index} className="select-item-btn" onClick={() => setDisplay(item.img)}>
+											<label htmlFor={item?.title + index} className="select-item-btn" onClick={() => setDisplay(item.img)}>
 												<img src={item?.img ?? "/images/product-default.jpg"} width="100%" height="auto" alt="item" />
 												{item?.title}
 											</label>
@@ -117,9 +117,9 @@ function Detail() {
 								<div className="product-item-title">Pilih variant</div>
 								<div className="product-item-list">
 									{size?.map((item, index) => (
-										<div className="product-item-group">
+										<div className="product-item-group" key={item}>
 											<input type="radio" id={item + index} name="size" value={item} onChange={(e) => setCart({ ...cart, size: e.target.value })} required />
-											<label for={item + index} className="select-item-btn">
+											<label htmlFor={item + index} className="select-item-btn">
 												{item}
 											</label>
 										</div>

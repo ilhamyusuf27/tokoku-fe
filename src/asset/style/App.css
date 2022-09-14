@@ -120,7 +120,7 @@
 }
 
 .modal-items{
-  width: 80%;
+  width: 100%;
   box-shadow: 1px -3px 11px -2px rgba(117,117,117,0.25);
   height: 120px;
   border-radius: 8px;
@@ -129,6 +129,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 .item-info{
   display: flex;
@@ -182,6 +184,15 @@
   text-align: center;
 }
 
+.full-size{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
 @media screen and (max-width: 960px) {
   .counter-items{
     width: 20%;
@@ -191,6 +202,24 @@
     width: 15px;
     height: 15px;
   }
+
+  .modal-content{
+    width: 80%;
+  }
+
+  .modal-items{
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+  }
+
+  .modal-stuffing{
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  
 }
 
 

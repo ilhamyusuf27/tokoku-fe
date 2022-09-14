@@ -85,66 +85,72 @@ function Checkout() {
 	return (
 		<>
 			<Main />
-			<section className="container main-container">
-				<div className="checkout">
-					<div className="item-container">
-						<div className="item-control">
-							<div className="item-productCheck-group">
-								<input type="checkbox" id="productCheck-all-items" name="allSelect" onChange={handleChange} className="checks" />
-								<label for="productCheck-all-items">Pilih semua produk</label>
-							</div>
-
-							<div className="item-delete" onClick={handleDelete}>
-								Hapus
-							</div>
-						</div>
-						{productCheck?.map((item, index) => (
-							<div className="item-list">
-								<div className="store-id">
-									<div className="store-name">
-										<MdStore />
-										<div className="name-store">{item?.store}</div>
-									</div>
-									<div className="store-loc">Jakarta Pusat</div>
+			{buy.length ? (
+				<section className="container main-container">
+					<div className="checkout">
+						<div className="item-container">
+							<div className="item-control">
+								<div className="item-productCheck-group">
+									<input type="checkbox" id="productCheck-all-items" name="allSelect" onChange={handleChange} className="checks" />
+									<label htmlFor="productCheck-all-items">Pilih semua produk</label>
 								</div>
 
-								<div className="item-desc">
-									<div className="item-productCheck-group">
-										<input type="checkbox" id="productCheck-all-items" name={item.title} className="checks" checked={item?.isChecked || false} onChange={handleChange} />
-									</div>
-									<div className="item-desc-group">
-										<div className="item-images">
-											<img src={item?.image ?? "/images/product-default.jpg"} width="100%" height="100%" alt="product" />
+								<div className="item-delete" onClick={handleDelete}>
+									Hapus
+								</div>
+							</div>
+							{productCheck?.map((item, index) => (
+								<div className="item-list" key={"L" + index}>
+									<div className="store-id">
+										<div className="store-name">
+											<MdStore />
+											<div className="name-store">{item?.store}</div>
 										</div>
-										<div className="item-desc-detail">
-											<div className="item-desc-title">
-												{item.title} - {item?.color}, {item?.size}
+										<div className="store-loc">Jakarta Pusat</div>
+									</div>
+
+									<div className="item-desc">
+										<div className="item-productCheck-group">
+											<input type="checkbox" id="productCheck-all-items" name={item.title} className="checks" checked={item?.isChecked || false} onChange={handleChange} />
+										</div>
+										<div className="item-desc-group">
+											<div className="item-images">
+												<img src={item?.image ?? "/images/product-default.jpg"} width="100%" height="100%" alt="product" />
 											</div>
-											<div className="item-price">{rupiah(item?.price)}</div>
+											<div className="item-desc-detail">
+												<div className="item-desc-title">
+													{item.title} - {item?.color}, {item?.size}
+												</div>
+												<div className="item-price">{rupiah(item?.price)}</div>
+											</div>
 										</div>
 									</div>
+
+									<div className="item-action">
+										<div className="add-memo">Tulis catatan untuk Toko</div>
+
+										<Counter total={item?.total} id={item?.id} />
+									</div>
 								</div>
-
-								<div className="item-action">
-									<div className="add-memo">Tulis catatan untuk Toko</div>
-
-									<Counter total={item?.total} id={item?.id} />
-								</div>
-							</div>
-						))}
-					</div>
-
-					<div className="checkout-sum">
-						<div className="sum-title">Ringkasan Belanja</div>
-						<div className="sum-price">
-							<div className="sum-price-title">Total Harga</div>
-
-							<div className="price-sum">{rupiah(totalPrice)}</div>
+							))}
 						</div>
-						<button className="button">Beli</button>
+
+						<div className="checkout-sum">
+							<div className="sum-title">Ringkasan Belanja</div>
+							<div className="sum-price">
+								<div className="sum-price-title">Total Harga</div>
+
+								<div className="price-sum">{rupiah(totalPrice)}</div>
+							</div>
+							<button className="button">Beli</button>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			) : (
+				<section className="container main-container full-size">
+					<img src="/images/empty.svg" alt="empty" width={"50%"} />
+				</section>
+			)}
 		</>
 	);
 }

@@ -6,13 +6,14 @@ import "../../asset/style/Home.css";
 import records from "../../data/records.json";
 
 function Home() {
+	const dataDummy = [...records, ...records, ...records, ...records, ...records];
 	return (
 		<>
 			<Main />
 			<section className="container main-container">
 				<div className="main-product">
-					{records.map((item) => (
-						<CardProduct item={item} />
+					{dataDummy.map((item, index) => (
+						<CardProduct item={item} key={"H" + index} />
 					))}
 				</div>
 			</section>

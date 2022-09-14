@@ -36,6 +36,7 @@
 .product-image-display img{
   max-width: 65px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .product-detail-order{
@@ -111,7 +112,7 @@
 }
 
 .product-item-group input[type='radio']:checked + .select-item-btn {
-  border: 2px solid red;
+  border: 2px solid var(--primary-color);
 }
 
 .select-item-btn img{

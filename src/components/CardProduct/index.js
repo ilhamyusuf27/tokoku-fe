@@ -32,8 +32,8 @@ function CardProduct(props) {
 					</div>
 					<div className="card-rating">
 						<div className="card-icon-container">
-							{[...new Array(5)].map(() => (
-								<AiFillStar color="#FEBE2A" className="card-icon" />
+							{[...new Array(5)].map((item, index) => (
+								<AiFillStar color="#FEBE2A" key={"S" + index} className="card-icon" />
 							))}
 						</div>
 						<div className="card-rating-display">(12)</div>
