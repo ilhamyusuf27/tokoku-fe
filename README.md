@@ -7,7 +7,7 @@
     <img src="https://res.cloudinary.com/dbi5h4hdg/image/upload/v1663208635/porto/Tokoku/logo_iiscuv.png" alt="Logo" width="150px">
   </a>
 
-  <h3 align="center">Lap-Tech Dashboard</h3>
+  <h3 align="center">Tokoku Front-End</h3>
 
   <p align="center">
     <a href="https://github.com/ilhamyusuf27/tokoku-fe/issues">Report Bug</a>
