@@ -20,7 +20,7 @@ function CardProduct(props) {
 	return (
 		<div className="card" onClick={() => navigate(`/product/${item?.slugs}`)}>
 			<div className="card-image">
-				<img src={item?.image[0] ?? "/images/product-default.jpg"} alt="product" width={"100%"} height="auto" />
+				<img src={item?.image[0] ?? "/images/product-default.jpg"} alt="product" width={"100%"} height="100%" />
 			</div>
 			<div className="card-content">
 				<a href="/" className="card-link">

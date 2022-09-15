@@ -7,3 +7,28 @@
   padding-bottom: 3rem;
   justify-content: space-around;
 }
+
+.secondary-title{
+  margin-bottom: 1rem;
+  color: var(--color-4);
+}
+
+.tabs{
+  width: 100%;
+  border-bottom: 1px solid var(--color-5);
+  margin-bottom: 3rem;
+}
+
+.tabs-product{
+  padding-bottom: 1rem;
+  border-bottom: 4px solid var(--primary-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  font-weight: 600;
+  cursor: pointer;
+}

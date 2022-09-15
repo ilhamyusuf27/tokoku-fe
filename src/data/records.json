@@ -106,6 +106,124 @@
       }
     ],
     "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 6,
+    "product": "Kemeja Pria Lengan Pendek Hitam Motif Floral Hijau Maron / Baju Kasual",
+    "slugs": "kemeja-pria-lengan-pendek-hitam-motif-floral-hijau-maron-baju-kasual",
+    "price": 89000,
+    "store": "Simpleclothes",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/8/24/a2f053ca-4ec2-47cb-b5a3-48925a242339.jpg"
+    ],
+    "category": [
+      {
+        "title": "Hitam",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/6/22/6fb18e85-3d53-4158-9479-f0e57e1c0de9.jpg"
+      },
+      {
+        "title": "Cream",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/8/24/304c56e4-9953-47cf-bd0f-7f4209ce7f28.jpg"
+      },
+      {
+        "title": "Navy",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/7/29/b4c7f747-5d2a-4243-a7d2-827b80351edd.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 7,
+    "product": "Kaos Polos Polo Pria Bahan Lakoste Pique Lengan Panjang",
+    "slugs": "kaos-polos-polo-pria-bahan-lakoste-pique-lengan-panjang",
+    "price": 38600,
+    "store": "Noveli lacos",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2020/10/13/2a2cb5a5-a59f-4761-a9b3-5333f3fb1123.jpg"
+    ],
+    "category": [
+      {
+        "title": "Yellow",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2020/10/13/68c60ba6-11e9-49b4-a4fe-119999676f02.jpg"
+      },
+      {
+        "title": "Cream",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2020/10/13/76dbdd78-2e3a-4eb5-8888-abe08b554d1d.jpg"
+      },
+      {
+        "title": "Red",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2020/11/18/277c2a9a-a9fd-4620-9d1e-eed7aa79c4f4.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 8,
+    "product": "Kemeja Flanel Lengan Panjang Eighty Eight Premium Unisex Original",
+    "slugs": "kemeja-flanel-lengan-panjang-eighty-eight-premium-unisex-original",
+    "price": 117000,
+    "store": "Revalino_store",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/8/1/51d79bb4-17f2-4be8-a161-18e2298f5c76.jpg"
+    ],
+    "category": [
+      {
+        "title": "Navy",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/6/21/9892c674-c79d-4c99-8de3-c56709940f11.jpg"
+      },
+      {
+        "title": "Black",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/6/21/bfa30f89-e3bd-41b8-9b5d-1f687cc4ca2c.jpg"
+      },
+      {
+        "title": "Brown",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/6/21/171f14d1-4700-4eeb-8569-b638ea40d670.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 9,
+    "product": "M231 Kemeja Pria Basic Polos Oxford Panjang",
+    "slugs": "m231-kemeja-pria-basic-polos-oxford-panjang",
+    "price": 149000,
+    "store": "M231 Official Store",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/9/8/b41869b6-8b03-46c5-961d-e088a474e6fd.jpg",
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/9/8/ea3c7a7d-4937-4894-ae43-ecefb427e575.jpg"
+    ],
+    "category": [
+      {
+        "title": "Black",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/9/8/89b02356-9eee-4d5a-8843-d2f8c9aa55ed.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 10,
+    "product": "KAOS POLOS KATUN COMBED PREMIUM 30S / KAOS PRIA",
+    "slugs": "kaos-polos-katun-combed-premium-30s-kaos-pria",
+    "price": 32219,
+    "store": "Ombembeng",
+    "image": [
+      "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/23/e67e5633-3da5-499a-a792-a2f6d6765033.jpg"
+    ],
+    "category": [
+      {
+        "title": "Black",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/9/14/40526cc0-d2df-4b8b-94c1-9b7e56a75218.jpg"
+      },
+      {
+        "title": "White",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/9/14/40526cc0-d2df-4b8b-94c1-9b7e56a75218.jpg"
+      },
+      {
+        "title": "Red",
+        "img": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/9/14/40526cc0-d2df-4b8b-94c1-9b7e56a75218.jpg"
+      }
+    ],
+    "size": ["S", "M", "L", "XL", "XXL"]
   }
 
 ]

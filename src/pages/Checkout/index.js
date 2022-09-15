@@ -60,7 +60,7 @@ function Checkout() {
 	};
 
 	const handleDelete = () => {
-		productCheck.find((element) => {
+		productCheck.filter((element) => {
 			if (element.isChecked) {
 				dispatch({
 					type: Type.PRODUCT_DELETE,
